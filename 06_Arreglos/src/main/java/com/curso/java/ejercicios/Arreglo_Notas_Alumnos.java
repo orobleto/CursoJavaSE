@@ -6,10 +6,13 @@ package com.curso.java.ejercicios;
 import java.util.Scanner;
 
 /**
- * @author Ing. Octavio Robleto
  * 
- * 5 jun. 2020
- *
+ * @author <a href="mailto:octavio.robleto@gmail.com">Ing. Octavio Robleto</a>
+ * @project 06_Arreglos
+ * @class Arreglo_Notas_Alumnos
+ * @description 
+ * @HU_CU_REQ 
+ * @date 10 jun. 2020
  */
 public class Arreglo_Notas_Alumnos {
 

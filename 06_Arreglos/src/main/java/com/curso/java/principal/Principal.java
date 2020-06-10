@@ -6,10 +6,13 @@ package com.curso.java.principal;
 import java.util.Arrays;
 
 /**
- * @author Ing. Octavio Robleto
  * 
- *         5 jun. 2020
- *
+ * @author <a href="mailto:octavio.robleto@gmail.com">Ing. Octavio Robleto</a>
+ * @project 06_Arreglos
+ * @class Principal
+ * @description 
+ * @HU_CU_REQ 
+ * @date 10 jun. 2020
  */
 public class Principal {
 
