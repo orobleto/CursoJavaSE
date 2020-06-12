@@ -56,8 +56,10 @@ public class Principal {
 			System.out.println("La variable es: " + variableBoolean);
 
 		// if reducido u operador ternario
-
-		String consola = ((12 > 6) ? "Es mayor" : "Es menor");
+		num1 = 2;
+		num2 = 5;
+		
+		String consola = ((num1 > num2) ? "Es mayor" : "Es menor");
 
 		System.out.println(consola);
 
