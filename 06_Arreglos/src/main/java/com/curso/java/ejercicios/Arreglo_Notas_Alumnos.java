@@ -11,7 +11,6 @@ import java.util.Scanner;
  * @project 06_Arreglos
  * @class Arreglo_Notas_Alumnos
  * @description 
- * @HU_CU_REQ 
  * @date 10 jun. 2020
  */
 public class Arreglo_Notas_Alumnos {

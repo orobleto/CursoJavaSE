@@ -13,7 +13,6 @@ import javax.swing.JOptionPane;
  * @project 07_Clases
  * @class Auto
  * @description 
- * @HU_CU_REQ 
  * @date 10 jun. 2020
  */
 class Auto {

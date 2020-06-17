@@ -10,7 +10,7 @@ _Aprenderemos a construir aplicaciones con Java y a desarrollar poderosas aplica
 
 ## Autor ✒️
 
-* **Ing. Octavio Robleto** [orobleto](https://orobleto.github.io/octaviorobleto.github.io/)
+* **Ing. Octavio Robleto** [orobleto](https://octaviorobleto.com/)
 
 También puedes mirar la plantilla de este archivo gracias a [villanuevand](https://github.com/villanuevand) 📢
 

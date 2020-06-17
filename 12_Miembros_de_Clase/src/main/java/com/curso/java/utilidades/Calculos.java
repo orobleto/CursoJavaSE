@@ -21,7 +21,6 @@ public class Calculos {
 	 * @author <a href="mailto:octavio.robleto@gmail.com">Ing. Octavio Robleto</a> 
 	 * @date 12 jun. 2020
 	 * @description 
-	 * @HU_CU_REQ 
 	 * @param operador
 	 * @param numero1
 	 * @param numero2

@@ -23,7 +23,7 @@ public class Principal {
 		// creamos o instanciamos los objetos
 		Auto auto1 = new Auto();
 		Compacto compacto1 = new Compacto("Azul", "Ford", "ANZ-963", true, 3);
-		Camion camion1 = new Camion(16, true, "Verde", "Mercedes Benz", "CAM-7896", false);
+		Camion camion1 = new Camion("Verde", "Mercedes Benz", "CAM-7896", false, 16, true);
 		Compacto compacto2 = new Compacto();
 
 		// le damos valores a los atributos del auto 1
@@ -44,6 +44,7 @@ public class Principal {
 		compacto1.mostrarDatos();
 		compacto2.mostrarDatos();
 		camion1.mostrarDatos();
+
 
 	}
 

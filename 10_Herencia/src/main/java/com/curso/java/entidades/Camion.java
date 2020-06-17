@@ -18,7 +18,7 @@ public class Camion extends Auto {
 	private int ejes;
 	private boolean disponible;
 
-	public Camion(int ejes, boolean disponible, String color, String marca, String patente, boolean encendido) {
+	public Camion(String color, String marca, String patente, boolean encendido, int ejes, boolean disponible) {
 		super(color, marca, patente, encendido);
 		this.ejes = ejes;
 		this.disponible = disponible;

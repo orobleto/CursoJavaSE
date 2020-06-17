@@ -9,7 +9,6 @@ package com.curso.java.principal;
  * @project 05_Bucles
  * @class Principal
  * @description 
- * @HU_CU_REQ 
  * @date 10 jun. 2020
  */
 public class Principal {
