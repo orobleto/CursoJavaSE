@@ -12,7 +12,6 @@ import com.curso.java.entidades.Compacto;
  * @project 14_Abstraccion
  * @class Principal
  * @description
- * @HU_CU_REQ
  * @date 17 jun. 2020
  */
 public class Principal {

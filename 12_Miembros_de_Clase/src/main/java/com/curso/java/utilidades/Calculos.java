@@ -11,7 +11,6 @@ package com.curso.java.utilidades;
  * @project 12_Miembros_de_Clase
  * @class Calculos
  * @description
- * @HU_CU_REQ
  * @date 12 jun. 2020
  */
 

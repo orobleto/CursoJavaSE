@@ -5,7 +5,6 @@ package com.curso.java.principal;
  * @project 11_Wrapper
  * @class Principal
  * @description
- * @HU_CU_REQ
  * @date 12 jun. 2020
  */
 public class Principal {

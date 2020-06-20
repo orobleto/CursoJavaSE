@@ -13,7 +13,6 @@ import javax.swing.JOptionPane;
  * @project 15_Interfaces
  * @class Compacto
  * @description
- * @HU_CU_REQ
  * @date 17 jun. 2020
  */
 public class Compacto extends Auto {

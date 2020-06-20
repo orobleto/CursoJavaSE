@@ -9,7 +9,6 @@ import javax.swing.JOptionPane;
  * @project 14_Abstraccion
  * @class Camion
  * @description
- * @HU_CU_REQ
  * @date 17 jun. 2020
  */
 public class Camion extends Auto {

@@ -13,7 +13,6 @@ import com.curso.java.interfaces.MetodosLavado;
  * @project 15_Interfaces
  * @class Auto
  * @description
- * @HU_CU_REQ
  * @date 17 jun. 2020
  */
 public abstract class Auto implements MetodosLavado {

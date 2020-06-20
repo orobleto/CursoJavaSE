@@ -7,7 +7,6 @@ package com.curso.java.entidades;
  * @project 14_Abstraccion
  * @class Auto
  * @description
- * @HU_CU_REQ
  * @date 17 jun. 2020
  */
 public abstract class Auto {

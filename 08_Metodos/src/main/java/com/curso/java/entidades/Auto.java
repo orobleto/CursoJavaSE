@@ -14,7 +14,6 @@ import javax.swing.JOptionPane;
  * @project 08_Metodos
  * @class Auto
  * @description
- * @HU_CU_REQ
  * @date 10 jun. 2020
  */
 public class Auto {

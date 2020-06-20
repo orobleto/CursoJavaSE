@@ -11,7 +11,6 @@ package com.curso.java.principal;
  * @project 12_Miembros_de_Clase
  * @class Constantes
  * @description
- * @HU_CU_REQ
  * @date 12 jun. 2020
  */
 public class Constantes {

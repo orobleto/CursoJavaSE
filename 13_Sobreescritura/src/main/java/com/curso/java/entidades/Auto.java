@@ -13,7 +13,6 @@ import javax.swing.JOptionPane;
  * @project 13_Sobreescritura
  * @class Auto
  * @description
- * @HU_CU_REQ
  * @date 12 jun. 2020
  */
 public class Auto {

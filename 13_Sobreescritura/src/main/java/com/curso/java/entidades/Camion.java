@@ -13,7 +13,6 @@ import javax.swing.JOptionPane;
  * @project 13_Sobreescritura
  * @class Camion
  * @description
- * @HU_CU_REQ
  * @date 12 jun. 2020
  */
 public class Camion extends Auto {

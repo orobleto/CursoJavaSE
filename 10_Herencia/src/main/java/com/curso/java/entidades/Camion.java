@@ -11,7 +11,6 @@ package com.curso.java.entidades;
  * @project 10_Herencia
  * @class Camion
  * @description
- * @HU_CU_REQ
  * @date 12 jun. 2020
  */
 public class Camion extends Auto {

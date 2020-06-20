@@ -13,7 +13,6 @@ import com.curso.java.entidades.Compacto;
  * @project 08_Metodos
  * @class Principal
  * @description
- * @HU_CU_REQ
  * @date 10 jun. 2020
  */
 public class Principal {
