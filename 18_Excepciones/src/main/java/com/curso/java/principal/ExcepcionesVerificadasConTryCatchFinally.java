@@ -5,8 +5,6 @@
  */
 package com.curso.java.principal;
 
-import java.io.BufferedReader;
-import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
@@ -18,28 +16,28 @@ import javax.swing.JOptionPane;
  * @author <a href="mailto:octavio.robleto@gmail.com">Ing. Octavio Robleto</a>
  * @project 18_Excepciones
  * @class ExcepcionesVerificadasConTryCatchFinally
- * @description
- * @date 19 jun. 2020
+ * @description 
+ * @date 18/09/2020
  */
 public class ExcepcionesVerificadasConTryCatchFinally {
 
 	public static void main(String[] args) {
+		// lo declaramos para que el finally tenga alcance del objeto
+		FileReader archivo = null;
+
 		try {
-			FileReader archivo = new FileReader(new File("datos.txt"));
-			BufferedReader lector = new BufferedReader(archivo);
-			String linea = lector.readLine();
-			while (linea != null) {
-				System.out.println(linea);
-				linea = lector.readLine();
-			}
-			lector.close();
-			archivo.close();
+			archivo = new FileReader("datos.txt");
+
 		} catch (FileNotFoundException e) {
-			String mensaje = "Archivo no encontrado \n " + e.getMessage() + "\n " + e.toString();
-			JOptionPane.showMessageDialog(null, mensaje, "Error", JOptionPane.ERROR_MESSAGE);
-		} catch (IOException e) {
-			JOptionPane.showMessageDialog(null, "No existe información en el archivo", "Error",
-					JOptionPane.ERROR_MESSAGE);
+			JOptionPane.showMessageDialog(null, "Archivo no encontrado \n " + e.getMessage() + "\n " + e.toString(),
+					"Error", JOptionPane.ERROR_MESSAGE);
+		} finally {
+			try {
+				archivo.close();
+			} catch (IOException e) {
+				JOptionPane.showMessageDialog(null, "No es posible cerrar los objetos", "Error",
+						JOptionPane.ERROR_MESSAGE);
+			}
 		}
 
 	}

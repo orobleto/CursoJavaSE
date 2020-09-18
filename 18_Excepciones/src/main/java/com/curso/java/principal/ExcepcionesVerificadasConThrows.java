@@ -5,8 +5,6 @@
  */
 package com.curso.java.principal;
 
-import java.io.BufferedReader;
-import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
@@ -21,18 +19,11 @@ import java.io.IOException;
  */
 public class ExcepcionesVerificadasConThrows {
 
+	// delegamos la excepciones, en este caso el error no podra ser manejado por el
+	// software
 	public static void main(String[] args) throws FileNotFoundException, IOException {
-
-		FileReader archivo = new FileReader(new File("datos.txt"));
-		BufferedReader lector = new BufferedReader(archivo);
-		String linea = lector.readLine();
-		while (linea != null) {
-			System.out.println(linea);
-			linea = lector.readLine();
-
-			lector.close();
-			archivo.close();
-		}
-		System.out.println("Fin del Programa");
+		// acceso a un archivo
+		FileReader archivo = new FileReader("datos.txt");
+		archivo.close();
 	}
 }

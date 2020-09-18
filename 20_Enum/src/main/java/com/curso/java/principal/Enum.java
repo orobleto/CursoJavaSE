@@ -5,9 +5,7 @@
  */
 package com.curso.java.principal;
 
-import java.util.Arrays;
-
-import com.curso.java.enums.EnumDiaSemana;
+import com.curso.java.enums.DiaSemana;
 
 /**
  * 
@@ -21,62 +19,46 @@ public class Enum {
 
 	// creamos un Enum local
 	enum ColoresBandera {
-		Azul, Blanco;
+		AZUL, BLANCO;
 	}
 
 	public static void main(String[] args) {
 		// lo declaramos e instanciamos
-		ColoresBandera color1 = ColoresBandera.Azul;
-		System.out.println(color1);
 
-		EnumDiaSemana diaSemana = EnumDiaSemana.Domingo;
+		ColoresBandera color = ColoresBandera.AZUL;
+		System.out.println(color);
 
-		System.out.println(diaSemana.getDiaNumero());
-		System.out.println(diaSemana.getDiaLetras());
-
-		// imprimir los valores del EnumDiaSemana
-		System.out.println(Arrays.toString(EnumDiaSemana.values()));
+		DiaSemana diaSemana = DiaSemana.DOMINGO;
 
 		switch (diaSemana) {
-		case Lunes:
+		case LUNES:
+		case MARTES:
+		case MIERCOLES:
+		case JUEVES:
+		case VIERNES:
 			System.out.println("Dia Hábil");
 			break;
-		case Martes:
-			System.out.println("Dia Hábil");
-			break;
-		case Miércoles:
-			System.out.println("Dia Hábil");
-			break;
-		case Jueves:
-			System.out.println("Dia Hábil");
-			break;
-		case Viernes:
-			System.out.println("Dia Hábil");
-			break;
-		case Sábado:
-			System.out.println("Dia No Hábil");
-			break;
-		case Domingo:
+		case SABADO:
+		case DOMINGO:
 			System.out.println("Dia No Hábil");
 			break;
 		}
-        /*
-        la instruccion anterior al notar que terminan haciendo lo mismo se podia resumir de una forma mas optima
-        de la siguiente manera:
-        
-        
-        case Lunes:
-        case Martes:
-        case Miércoles:
-        case Jueves:
-        case Viernes:
-            System.out.println("Dia Hábil");
-            break;
-        case Sábado:
-        case Domingo:
-            System.out.println("Dia No Hábil");
-            break;
-        */
+
+		System.out.println(diaSemana.getNumero());
+		System.out.println(diaSemana.getAbreviatura());
+
+		// Values para devolver un arreglo del Enum
+		for (DiaSemana diaAux : DiaSemana.values()) {
+			System.out.println(diaAux.toString() + ", Abreviatura: " + diaAux.getAbreviatura() + ", Numero: "
+					+ diaAux.getNumero());
+
+		}
+
+		// Imprime el valor de la constante si existe de lo contrario mostrara un error
+		System.out.println(DiaSemana.valueOf("MARTES"));
+
+		// Imprime la posicion de la constantes
+		System.out.println(diaSemana.ordinal());
 
 	}
 }

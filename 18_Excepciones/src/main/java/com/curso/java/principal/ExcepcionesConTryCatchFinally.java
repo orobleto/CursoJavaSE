@@ -44,7 +44,6 @@ public class ExcepcionesConTryCatchFinally {
 			} finally {
 				System.out.println("Dividir numeros");
 			}
-
 			break;
 		}
 

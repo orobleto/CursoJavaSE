@@ -13,31 +13,25 @@ package com.curso.java.principal;
  * @description
  * @date 19 jun. 2020
  */
-public class ExcepcionesSemana extends Exception {
+public class ExcepcionSemana extends Exception {
 
 	private static final long serialVersionUID = 1L;
 	private int codigoError;
 
-	public ExcepcionesSemana(int codigoError) {
+	public ExcepcionSemana(int codigoError) {
 		super();
 		this.codigoError = codigoError;
 	}
 
 	@Override
 	public String getMessage() {
-
-		String mensaje = "";
-
 		switch (codigoError) {
 		case 1:
-			mensaje = "Error, el numero es Negativo";
-			break;
+			return "Número Negativo, validos del [1-7]";
 		case 2:
-			mensaje = "Error, el numero es Mayor a  7";
-			break;
+			return "Número Fuera del Rango, validos del [1-7]";
+		default:
+			return "Fuera del Rango";
 		}
-
-		return mensaje;
-
 	}
 }

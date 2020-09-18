@@ -6,11 +6,11 @@ import javax.swing.JOptionPane;
  * 
  * @author <a href="mailto:octavio.robleto@gmail.com">Ing. Octavio Robleto</a>
  * @project 18_Excepciones
- * @class ExcepcionesConError
- * @description
- * @date 19 jun. 2020
+ * @class GenerarError
+ * @description 
+ * @date 18/09/2020
  */
-public class ExcepcionesConError {
+public class GenerarError {
 
 	public static void main(String[] args) {
 
