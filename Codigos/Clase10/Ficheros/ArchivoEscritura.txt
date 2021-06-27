@@ -1,0 +1,5 @@
+El lenguaje de programación Java tiene una filosofía: escribir una vez, ejecutar en cualquier lugar. 
+Es un lenguaje moderno y orientado a objetos.
+Es ampliamente utilizado para desarrollar aplicaciones móviles en AndroidEl lenguaje de programación Java tiene una filosofía: escribir una vez, ejecutar en cualquier lugar. 
+Es un lenguaje moderno y orientado a objetos.
+Es ampliamente utilizado para desarrollar aplicaciones móviles en Android

@@ -1,0 +1,33 @@
+De Azure a LinkedIn, de SQL Server a Minecraft… Microsoft «recurre a Java más de lo que la gente pueda imaginar», a la hora de desarrollar varios de sus productos y servicios más populares. Los propios servidores internos de la compañía mantienen en funcionamiento medio millón de máquinas virtuales Java.
+
+
+Pero ahora, además de usarlo va a aportar su granito de arena al desarrollo del lenguaje lanzando su propia compilación de OpenJDK, que incorpora todas aquellas «correcciones y mejoras que consideramos importantes para nuestros clientes y nuestros usuarios internos».
+
+
+Así, los binarios de la primera versión preview de esta ‘Microsoft Build de OpenJDK’ está ya disponible para descargar en la web de Microsoft en versiones para sistemas x64 macOS, Linux y Windows (en los tres casos, tanto para escritorio como para servidor).
+
+
+En palabras de Miguel de Icaza, Microsoft dará soporte a su versión de OpenJDK 11 «al menos hasta 2024».
+
+
+Pero descargarla e instalarla no es el único modo de probar esta preview: según ha anunciado la compañía, los clientes de Azure también pueden ponerla a prueba utilizando Azure Cloud Shell en sus navegadores o en la terminal de Windows.
+
+
+Y aunque si bien, como ‘preview’ que es, no está lista para su uso en entornos de producción, sí se ajusta a las especificaciones de Java 11, y es capaz de reemplazar a cualquier otra distribución de OpenJDK.
+
+
+Por otro lado, dado que el lanzamiento de Java 17 está programado para finales de este año, desde Microsoft ya han anunciado que su Microsoft OpenJDK 17 estará disponible inmediatamente después.
+
+
+Otro paso más en la apuesta de Microsoft por Java
+
+No es la primera vez que Microsoft lleva a cabo su propia implementación de la tecnología de Java: ya en su momento desarrolló una Microsoft Java Virtual Machine, un proyecto que se suspendió tras la compra de Sun Microsystems por parte de Oracle (una adquisición que también fue el inicio de la recién finalizada batalla legal entre Oracle y Google por la API de Java).
+
+
+«Java es uno de los lenguajes de programación más importantes entre los que se utilizan hoy en día. En Microsoft hemos apreciado un auge de su uso por parte de los clientes de nuestros servicios cloud y de nuestras herramientas de desarrollo».
+
+
+Realmente, Microsoft viene apostando fuerte por Java desde hace ya dos años: desde que creó el Grupo de Ingeniería Java en su departamento de Desarrollo y adquirió jClarity para optimizar las cargas de trabajo de Java en su plataforma Azure. El año pasado, además, lanzó el ‘port’ para Windows 10 ARM de OpenJDK.
+
+Fuente: https://blog.educacionit.com/2021/04/12/microsoft-lanza-la-preview-de-su-propia-implementacion-de-openjdk-11-el-kit-de-desarrollo-del-lenguaje-java/
+

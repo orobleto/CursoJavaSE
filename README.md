@@ -10,15 +10,11 @@ _Aprenderemos a construir aplicaciones con Java y a desarrollar poderosas aplica
 
 ## Autor ✒️
 
-* **Ing. Octavio Robleto** [orobleto](https://octaviorobleto.com/)
-
-También puedes mirar la plantilla de este archivo gracias a [villanuevand](https://github.com/villanuevand) 📢
+* **Ing. Octavio Robleto** [orobleto](https://octaviorobleto.com/) 
 
 ## Licencia 📄
 
-Este curso es libre por lo que puedes ayudar a mejorarlo 🤓
+* **Educación IT** [WEB](https://www.educacionit.com/) 📢 
 
-## Agradecimientos 🎁
 
-* A todos esos alumnos que hacen que quiera mejorar para ellos 🤓.
-* Muchas gracias a * **Andrés Villanueva** por colgar esta plantilla del README ❤️
+> NuncaDejesDeAprender 🤓

@@ -1,0 +1,152 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/table.css" />
+    <link rel="stylesheet" href="css/button.css" />
+    <link rel="stylesheet" href="css/form.css" />
+    <title>Inicio</title>
+  </head>
+
+  <body>
+    <div>
+      <header>
+        <h1>FrontEnd</h1>
+        <img src="images/editor.png" width="100" height="100" />
+      </header>
+    </div>
+
+    <div>
+      <nav>
+        <a href="index.html">Inicio</a>
+      </nav>
+    </div>
+
+    <div>
+      <section>
+        <h2>Formulario Titulo</h2>
+        <h3>Formulario Subtitulo</h3>
+        <div>Formulario Cuerpo</div>
+        <div>
+          <form action="validar" method="get">
+            <div>
+              <label for="color">Color</label>
+            </div>
+            <div>
+              <select name="color" id="color">
+                <option value="NEGRO">Negro</option>
+                <option value="AZUL">Azul</option>
+                <option value="MARRON">Marron</option>
+                <option value="GRIS">Gris</option>
+                <option value="VERDE">Verde</option>
+                <option value="NARANJA">Naranja</option>
+                <option value="ROSA">Rosa</option>
+                <option value="PURPURA">Purpura</option>
+                <option value="ROJO">Rojo</option>
+                <option value="BLANCO">Blanco</option>
+                <option value="AMARILLO">Amarillo</option>
+              </select>
+            </div>
+            <div>
+              <label for="marca">Marca</label>
+            </div>
+            <div>
+              <select name="marca" id="marca">
+                <option value="Audi">Audi</option>
+                <option value="Subaru">Subaru</option>
+                <option value="Lexus">Lexus</option>
+                <option value="Porsche">Porsche</option>
+                <option value="BMW">BMW</option>
+                <option value="Mazda">Mazda</option>
+                <option value="Buick">Buick</option>
+                <option value="Toyota">Toyota</option>
+                <option value="Kia">Kia</option>
+                <option value="Honda">Honda</option>
+                <option value="Hyundai">Hyundai</option>
+                <option value="Volvo">Volvo</option>
+                <option value="Mini">Mini</option>
+                <option value="Mercedes-Benz">Mercedes-Benz</option>
+                <option value="Volkswagen">Volkswagen</option>
+                <option value="Ford">Ford</option>
+                <option value="Lincoln">Lincoln</option>
+                <option value="Scion">Scion</option>
+                <option value="Acura">Acura</option>
+                <option value="Chevrolet">Chevrolet</option>
+                <option value="Nissan">Nissan</option>
+                <option value="Infiniti">Infiniti</option>
+                <option value="GMC">GMC</option>
+                <option value="Cadillac">Cadillac</option>
+                <option value="Dodge">Dodge</option>
+                <option value="Land Rover">Land Rover</option>
+                <option value="Mitsubishi">Mitsubishi</option>
+                <option value="Jeep">Jeep</option>
+                <option value="Fiat">Fiat</option>
+              </select>
+            </div>
+            <div>
+              <label for="patenteNumero">Numero de Patente</label>
+            </div>
+            <div>
+              <input
+                type="text"
+                name="patenteNumero"
+                id="patenteNumero"
+                placeholder="ABC-1234"
+                required="true"
+              />
+            </div>
+            <div>
+              <label for="patenteActiva">Estado de la Patente</label>
+            </div>
+            <div>
+              <select name="patenteActiva" id="patenteActiva">
+                <option value="true">Activa</option>
+                <option value="false">Inactiva</option>
+              </select>
+            </div>
+            <div>
+              <label for="categoria">Categoria</label>
+            </div>
+            <div>
+              <select name="categoria" id="categoria">
+                <option value="Cupé">Cupé</option>
+                <option value="Sport">Sport</option>
+                <option value="Sedán">Sedán</option>
+                <option value="Deportivo">Deportivo</option>
+                <option value="Compacto">Compacto</option>
+                <option value="Electrico">Electrico</option>
+              </select>
+            </div>
+            <div>
+              <label for="puestos">Numero de Puestos</label>
+            </div>
+            <div>
+              <input
+                type="number"
+                min="1"
+                max="100"
+                name="puestos"
+                id="puestos"
+                placeholder="4"
+                required="true"
+              />
+            </div>
+            <div>
+              <button type="reset" class="reset">Limpiar</button>
+              <button type="submit" class="submit">Enviar</button>
+            </div>
+          </form>
+        </div>
+      </section>
+    </div>
+
+    <div>
+      <footer>
+        <p>Creado por Educacion IT</p>
+      </footer>
+    </div>
+  </body>
+</html>

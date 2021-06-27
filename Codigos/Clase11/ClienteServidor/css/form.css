@@ -1,0 +1,9 @@
+input[type=text],[type=number],[type=email],select, textarea {
+    width: 50%;
+    padding: 10px 15px;
+    margin: 4px 0;
+    display: inline-block;
+    border: 1px solid thistle;
+    box-sizing: border-box;
+}
+
