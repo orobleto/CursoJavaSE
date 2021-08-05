@@ -1,0 +1,13 @@
+
+-- USAR UNA BASE DE DATOS
+USE autosEducacionIT;
+
+
+-- CREAR UNA TABLA CON CAMPOS Y CLAVE PRIMARIA
+CREATE TABLE IF NOT EXISTS usuarios (
+	correo 	VARCHAR(50),
+	clave 	BLOB,
+	activo 	BOOLEAN DEFAULT 1
+	PRIMARY KEY(correo)
+);
+

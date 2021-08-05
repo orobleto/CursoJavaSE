@@ -81,7 +81,7 @@
 		<div class="col-sm-3"></div>
 		<div class="col-sm-6">
 			<%
-				out.print("<div class=\"alert " + tipo + " alert-dismissible\">");
+				    out.print("<div class=\"alert " + tipo + " alert-dismissible\">");
 					out.print("<a class=\"close\" data-dismiss=\"alert\" aria-label=\"close\">&times;</a>");
 					out.print(mensaje);
 					out.print("</div>");

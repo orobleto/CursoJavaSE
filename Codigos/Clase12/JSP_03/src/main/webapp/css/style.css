@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Courier New", Courier, monospace;
+  padding: 10px;
+  background: #f1f1f1;
+  color: #2a3132;
+}
+
+header {
+  padding: 20px;
+  text-align: center;
+  background: white;
+}
+
+header h1 {
+  font-size: 50px;
+}
+
+nav {
+  overflow: hidden;
+  background-color: #336b87 !important;
+}
+
+nav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 12px 16px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #f2f2f2;
+  color: #2a3132;
+}
+
+footer {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  padding-top: 20px;
+  background: #f2f2f2;
+}
+
+section {
+  text-align: center;
+}
